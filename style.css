@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Space+Mono:wght@700&display=swap');
+
+/* body {
+    margin: 1em 3em;
+} */
+
+#top-header {
+    margin: 1em 3em;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+.main {
+    margin-top: 1em;
+    display: flex;
+    padding: 1em;
+}
+
+.main-left img {
+    padding-top: 1em;
+    width: 90%;
+}
+
+.heading {
+    width: 100%;
+    margin-top: 1.8em;
+    font-family: 'Space Mono', monospace;
+    font-weight: 800 bold;
+    font-size: 4em;
+}
+
+.content {
+    margin-top: 10px ;
+    font-family: 'Space Mono', monospace;
+    width: 350px;
+    margin-top: 35px;
+    color: #5e5d5d;
+}
+
+button {
+    margin-top: 35px;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    background: black;
+    border: none;
+    padding: 20px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.user {
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+    color: #4F4F4F;
+}
+
+span {
+    color: grey;
+}
+
+/* mobile */
+@media screen and (max-width: 384px) {
+    #top-header {
+        text-align: center;
+    }
+
+    .main {
+        display: block;
+    }
+
+    .main-left img {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .heading {
+        width: 100%;
+        margin-top: 0.7em;
+        font-size: 3em;
+        text-align: center;
+    }
+}
+
+/* tablet*/
+@media screen and (max-width: 810px) {
+
+    .heading {
+        width: 100%;
+        font-size: 1em;
+        margin-top: 0;
+    }
+
+    footer {
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+}
